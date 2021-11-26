@@ -1,0 +1,15 @@
+node_modules/
+cache/
+build/
+typechain/
+artifacts/
+deployments/
+.vscode/
+
+coverage*
+.env
+.DS_Store
+*.swp
+.tmp
+yarn-error.log
+.idea/
