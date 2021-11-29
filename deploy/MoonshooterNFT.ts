@@ -18,7 +18,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
 
   const { deployer } = await getNamedAccounts();
 
-  const uri: string = "bsc";
+  const uri: string = "";
   if (uri === "") throw "uri cannot be an empty string";
 
   await deploy("MoonshooterNFT", {
